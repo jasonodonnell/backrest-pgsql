@@ -1,0 +1,19 @@
+---
+- name: pgbackrest 
+  box: centos/7
+  hostname: "orc-pgbackrest.dev"
+  ip: 172.17.0.2
+  job: pgbackrest
+  ram: 2048
+- name: postgres-0
+  box: centos/7
+  hostname: "orc-postgres-0.dev"
+  ip: 172.17.0.3
+  job: postgres
+  ram: 2048
+- name: postgres-1
+  box: centos/7
+  hostname: "orc-postgres-1.dev"
+  ip: 172.17.0.4
+  job: postgres
+  ram: 2048

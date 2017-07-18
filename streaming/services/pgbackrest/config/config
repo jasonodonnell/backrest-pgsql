@@ -1,0 +1,13 @@
+Host orc-postgres-0.dev
+  IdentityFile ~/.ssh/backrest
+  Port 22
+  User postgres
+  Hostname orc-postgres-0.dev
+  StrictHostKeyChecking=no
+
+Host orc-postgres-1.dev
+  IdentityFile ~/.ssh/backrest
+  Port 22
+  User postgres
+  Hostname orc-postgres-1.dev
+  StrictHostKeyChecking=no

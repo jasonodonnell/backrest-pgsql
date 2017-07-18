@@ -1,8 +1,8 @@
 # Virtual Environment
 
-This is the virtualization blueprint to deploy PostgreSQL 9.6 and pgBackrest to replicate in two different ways:
-* Streaming Replication
-* Log Shipping
+This is the virtualization blueprint to deploy:
+* PostgreSQL (Primary and Streaming Replica)
+* pgBackrest (Dedicated Backup Host)
 
 ## Requirements
 
@@ -14,4 +14,10 @@ To install `vagrant-hostmanager` run the following:
 
 ```bash
 $ vagrant plugin install vagrant-hostmanager
+```
+
+## Deploy
+
+```bash
+$ vagrant up
 ```
